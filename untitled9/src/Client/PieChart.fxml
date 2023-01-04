@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DCBBF7;" xmlns="http://javafx.com/javafx/8.0.301" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.PieChartController">
+   <children>
+      <PieChart fx:id="dayTimeStat" layoutX="50.0" title="Статистика вылетов" />
+      <Button fx:id="naz" layoutX="480.0" layoutY="350.0" mnemonicParsing="false" prefHeight="30" prefWidth="100" text="Назад" />
+   </children>
+</AnchorPane>
